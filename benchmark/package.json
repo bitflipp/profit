@@ -1,0 +1,14 @@
+{
+  "name": "benchmark",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "benchmark": "./index.js",
+    "lint": "eslint . --ext .js --fix --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-modern": "^0.6.7"
+  }
+}

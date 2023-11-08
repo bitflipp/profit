@@ -1,0 +1,5 @@
+{
+  "controlFlowFlattening": true,
+  "deadCodeInjection": true,
+  "selfDefending": true
+}
