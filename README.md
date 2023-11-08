@@ -1,4 +1,7 @@
-# Run frontend
+# Profit!
 
-`make setup`
-`make`
+## Run frontend
+
+```make setup```
+
+```make```
