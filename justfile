@@ -1,4 +1,4 @@
-all: frontend
+default: frontend
 
 clean:
 	rm -rf dist
@@ -9,13 +9,13 @@ setup:
 	cd common && yarn
 	cd frontend && yarn
 
-frontend: FORCE
+frontend:
 	cd frontend && yarn dev
 
-cli: FORCE
+cli:
 	cd cli && yarn run cli
 
-benchmark: FORCE
+benchmark:
 	cd benchmark && yarn run benchmark
 
 lint:
@@ -41,5 +41,3 @@ test:
 
 cover:
 	cd common && yarn cover
-
-FORCE: ;
