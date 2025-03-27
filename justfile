@@ -30,7 +30,7 @@ audit:
 	cd common && yarn audit
 	cd frontend && yarn audit
 
-upgrade:
+update:
 	cd benchmark && yarn upgrade
 	cd frontend && yarn upgrade
 	cd common && yarn upgrade
